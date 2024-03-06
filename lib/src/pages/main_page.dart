@@ -30,7 +30,7 @@ class MainPage extends StatelessWidget {
                   onPressed: () =>
                       context.read<MainPageCubit>().textPressCount(),
                   child: Text(
-                    'Hello There!',
+                    'Hello there!',
                     style: TextStyle(color: state.textColor),
                   ),
                 ),
