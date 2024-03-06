@@ -8,3 +8,9 @@ Application has 1 screen with text "Hello there!" in the middle of the screen. T
 Easter Egg 
 ![]Tapping on text 5 times in a row provides to showing toast with text "General Kenobi!".
 ```
+
+```{toggle}
+Some hidden toggle content!
+
+![](../images/cool.jpg)
+```
