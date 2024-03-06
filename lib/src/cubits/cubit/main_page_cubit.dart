@@ -8,11 +8,13 @@ part 'main_page_state.dart';
 
 class MainPageCubit extends Cubit<MainPageState> {
   MainPageCubit()
-      : super(const MainPageState(
-          pageColor: Colors.white,
-          textColor: Colors.black,
-          textPressCounter: 0,
-        ));
+      : super(
+          const MainPageState(
+            pageColor: Colors.white,
+            textColor: Colors.black,
+            textPressCounter: 0,
+          ),
+        );
 
   void generateColor() {
     final rand = Random();
