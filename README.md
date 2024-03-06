@@ -11,6 +11,3 @@ Application has 1 screen with text "Hello there!" in the middle of the screen. T
   Tapping on text 5 times in a row provides to showing toast with text "General Kenobi!".
   
 </details>
-
-
-Easter Egg: tapping on text 5 times in a row provides to showing toast with text "General Kenobi!".
