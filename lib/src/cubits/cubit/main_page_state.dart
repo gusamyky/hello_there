@@ -5,15 +5,19 @@ class MainPageState extends Equatable {
   final Color textColor;
   final int textPressCounter;
 
-  const MainPageState(
-      {required this.pageColor,
-      required this.textColor,
-      required this.textPressCounter});
+  const MainPageState({
+    required this.pageColor,
+    required this.textColor,
+    required this.textPressCounter,
+  });
 
   @override
   List<Object?> get props => [pageColor, textColor, textPressCounter];
-  MainPageState copyWith(
-          {Color? pageColor, Color? textColor, int? textPressCounter}) =>
+  MainPageState copyWith({
+    Color? pageColor,
+    Color? textColor,
+    int? textPressCounter,
+  }) =>
       MainPageState(
         pageColor: pageColor ?? this.pageColor,
         textColor: textColor ?? this.textColor,
